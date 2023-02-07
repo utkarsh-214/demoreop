@@ -1,6 +1,6 @@
-testlist = []
+import pandas as pd
 
-for i in range(7):
-    testlist.append(i+3)
+demand = pd.read_csv("demand.csv")
+demand1 = demand[(demand[" Demand"] > 800)]
 
-print(testlist)
+print(demand1.head())
