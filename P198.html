@@ -71,6 +71,7 @@
             <button id="*">*</button>
             <button id="+">+</button>
             <button id="C">C</button>
+            <button id="Del">Del</button>
         </div>
     </div>  
 </body>
@@ -90,6 +91,9 @@
     });
     document.getElementById("C").addEventListener("click", function() {
         document.getElementById("output").value="";    
+    });
+    document.getElementById("del").addEventListener("click", function() {
+        output.value.slice(0,-1)
     });
 </script>
 </html>
