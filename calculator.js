@@ -1,4 +1,3 @@
-
 document.querySelectorAll("button").forEach(button => {
     button.addEventListener("click", function() {
         if (this.textContent === "=") {
