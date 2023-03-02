@@ -1,0 +1,40 @@
+body{
+    background-color: #202124;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: grid;
+    width: 50%;
+    height: 60vh;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    column-gap: 1%;
+    row-gap: 1%;
+}
+input{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    font-family: "Trebuchet MS", Tahoma, sans-serif;
+}
+button{
+    font-size: large;
+    background-color: #3C4043;
+    color: white;
+    border-radius: 5%;
+    border: none;
+}
+button:hover{
+    background-color: #70757A;
+}
+input{
+    font-size: large;
+}
